@@ -81,7 +81,9 @@ header nav .display-none{
     color: #fff;
     display: none;
 }
+/* header style end  */
 
+/* hero style start  */
 .hero{
     height: calc(100vh - 70px);
     width: 100%;
@@ -137,7 +139,7 @@ header nav .display-none{
     height: 100%;
     width: 100%;
 }
-/* header style end */
+/* hero style end */
 
 /* service style start */
 .service h2{

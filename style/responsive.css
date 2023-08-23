@@ -360,7 +360,11 @@
 
     .hero .heroRight {
         height: 50%;
-        
+    }
+
+    .hero .heroRight img{
+        height: 80%;
+        margin-top: 40px;
     }
     /* hero style end */
 

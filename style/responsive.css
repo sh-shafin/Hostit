@@ -334,7 +334,6 @@
         height: calc(100vh - 60px);
         padding-top: 40px;
         flex-direction: column;
-        height: 100%;
         width: 100%;
     }
 

@@ -1,0 +1,516 @@
+/* responsive style  */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    /* header style start */
+    header{
+        padding: 0px 40px;
+    }
+    
+    header nav a{
+        display: none;
+    }
+
+    header nav .display-none{
+        display: block
+    }
+
+    header nav a{
+        padding: 5px;
+    }
+
+    .hero{
+        padding-top: 40px;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .heroLeft h1{
+        text-align: center;
+    }
+
+    .heroLeft p{
+        padding: 40px 50px;
+        text-align: center;
+    }
+
+    .heroLeft .btns{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .hero .heroRight {
+        height: 50%;
+    }
+    /* header style end  */
+
+    /* service style start */
+    .serviceWrapper{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+    }
+
+    .serviceItem{
+        margin: auto;
+        width: 380px;
+        height: 300px;
+    }
+
+    .serviceItem p{
+        padding: 0 20px;
+    }
+    /* service style end */
+
+    /* about styles start */
+    .aboutWrapper{
+        margin: auto;
+        width: 600px;
+        flex-direction: column;
+    }
+    /* about styles end */
+
+    /* pricing style start */
+    .container{
+        width: 500px;
+        text-align: center;
+    }
+
+    .price .container h4{
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+
+    .priceWrapper{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 500px;
+        justify-content: center;
+    }
+    /* pricing style end */
+
+    /* contact style start */
+    .contactWidth {
+        width: 600px;
+    }
+    /* contact style end */
+
+    /* footer style start */
+    .container{
+        width: 100%;
+    }
+
+    footer{
+        background-color: #020230;
+        padding: 0px 20px;
+    }
+
+    .navbar{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-content: center;
+    }
+    /* footer style end */
+}
+ 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    /* header style start */
+    header{
+        padding: 0px 40px;
+    }
+    
+    header nav a{
+        display: none;
+    }
+
+    header nav .display-none{
+        display: block
+    }
+
+    header nav a{
+        padding: 5px;
+    }
+    /* header style end */
+
+    /* hero style start */
+    .hero{
+        padding-top: 40px;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .heroLeft h1{
+        text-align: center;
+    }
+
+    .heroLeft p{
+        padding: 40px 50px;
+        text-align: center;
+    }
+
+    .heroLeft .btns{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .hero .heroRight {
+        height: 50%;
+    }
+    /* hero style end */
+
+    /* service style start */
+    .container{
+        padding: 0 20px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .service h2{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .serviceWrapper{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+    }
+
+    .serviceItem{
+        margin: auto;
+        width: 450px;
+        height: 300px;
+    }
+
+    .serviceItem p{
+        padding: 0 20px;
+    }
+    /* service style end */
+
+    /* about style start */
+    .aboutWrapper{
+        margin: auto;
+        width: 450px;
+        flex-direction: column;
+    }
+    /* about style end */
+
+    /* server style start */
+    .serverWrapper{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .serverWrapper .serverLeft{
+        justify-content: center;
+    }
+
+    .serverWrapper .serverLeft > i{
+        left: 50%;
+    }
+
+    .serverWrapper .serverLeft, .serverRight{
+        width: 100%;
+    }
+
+    .serverWrapper .serverRight{
+        background-color: #020230;
+        width: 100%;
+    }
+
+    .serverWrapper .serverRight h3 {
+        margin-top: 20px;
+        padding: 0 70px;
+    }
+
+    .serverWrapper .serverRight p {
+        padding: 20px 70px;
+        width: 100%;
+    }
+
+    .serverRight{
+        text-align: center;
+    }
+
+    .serverRight .redBtn{
+        margin: 20px 0;
+    }
+    /* server style end */
+
+    /* pricing style start */
+    .container{
+        width: 450px;
+        text-align: center;
+    }
+
+    .price .container h4{
+        font-size: 35px;
+        text-align: center;
+       margin: 50px 0px;
+    }
+
+    .priceWrapper{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 450px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .priceItem{
+        margin: auto;
+    }
+    /* pricing style end */
+
+    /* contact style start */
+    
+
+    .contactWidth {
+        width: 500px;
+    }
+
+    .inputItem .inputField{
+        padding: 15px 20px;
+    }
+
+    .inputItem .inputWidth{
+        height: 100px;
+    }
+    /* contact style end */
+
+    /* footer style start */
+    .navbar{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+    }
+
+    .navEmail input{
+        width: 80%;
+    }
+
+    .inputBtn{
+        padding: 12px 135px;
+        margin-bottom: 40px;
+    }
+    /* footer style end */
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 500px) {
+    /* reuseable style  */
+    .container{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    /* header style start */
+    header{
+        padding: 0px 30px;
+    }
+
+    header .logo span{
+        font-size: 23px;
+    }
+
+    header nav a{
+        display: none;
+    }
+
+    header nav .display-none{
+        display: block
+    }
+    /* header style end */
+
+    /* hero style start */
+    .hero{
+        padding-top: 40px;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .heroLeft h1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .heroLeft p {
+        padding: 20px 0px;
+        width: 300px;
+        font-size: 15px;
+        color: #fff;
+        line-height: 20px;
+    }
+
+    .heroLeft .btns{
+       flex-direction: column;
+    }
+
+    .heroLeft .blueBtn{
+       margin: 0px 0px 20px 0px;
+    }
+
+    .hero .heroRight {
+        height: 50%;
+        
+    }
+    /* hero style end */
+
+    /* service style start */
+    .service h2{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .serviceWrapper{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+
+    .serviceItem{
+        margin: auto;
+        width: 300px;
+        height: 300px;
+    }
+
+    .serviceItem p{
+        padding: 0 20px;
+    }
+    /* service style end */
+
+    /* about style start */
+    .aboutWrapper{
+        margin: auto;
+        width: 300px;
+        flex-direction: column;
+    }
+
+    .aboutRight img{
+        height: 250px;
+        width: 300px;
+     }
+
+    /* about style end */
+
+     /* server style start */
+    .serverWrapper{
+        background-image: none;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .serverWrapper .serverLeft{
+        justify-content: center;
+    }
+
+    .serverWrapper .serverLeft img{
+        height: 250px;
+        width: 350px;
+        background-color: #FFFFFF;
+    }
+
+    .serverWrapper .serverLeft > i{
+        left: 50%;
+    }
+
+    .serverWrapper .serverLeft, .serverRight{
+        width: 100%;
+    }
+
+    .serverWrapper .serverRight{
+        background-color: #020230;
+        width: 100%;
+    }
+
+    .serverWrapper .serverRight h3{
+        margin-top: 20px;
+        padding: 0 70px;
+    }
+
+    .serverWrapper .serverRight p{
+        font-size: 15px;
+        padding: 20px 30px;
+        width: 100%;
+    }
+
+    .serverRight{
+        text-align: center;
+    }
+
+    .serverRight .redBtn{
+        margin: 20px 0;
+    }
+     /* server style end */
+
+    /* pricing style start */
+
+    .priceBox{
+       width: 100%;
+    }
+
+    .price .container h4{
+        font-size: 35px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .priceWrapper{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .priceItem{
+        margin: auto;
+    }
+    /* pricing style end */
+
+    /* contact style start */
+    .contactWidth > h3{
+        font-size: 30px;
+    }
+
+    .contactWidth {
+        width: 350px;
+        margin: auto;
+    }
+
+    .inputItem .inputField{
+        padding: 12px 20px;
+        margin: 7px auto;
+    }
+
+    .inputItem .inputWidth{
+        height: 70px;
+    }
+    /* contact style end */
+
+    /* footer style start */
+    footer{
+        padding: 50px 0px;
+    }
+
+    .navInfo p{
+        padding: 0px 10px;
+    }
+
+    .navEmail input{
+        width: 60%;
+    }
+
+    .inputBtn{
+        padding: 12px 70px;
+        margin-bottom: 40px;
+    }
+    /* footer style end  */
+}
